@@ -24,4 +24,10 @@ ol ::marker,ul ::marker {
   color: #9309ca;
 }
 
+.podpis {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
 
