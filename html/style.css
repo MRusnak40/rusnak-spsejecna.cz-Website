@@ -30,4 +30,22 @@ ol ::marker,ul ::marker {
   margin-top: 20px;
 }
 
+.tlacitko {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1e9b33;
+  color: rgba(197, 207, 206, 0.815);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.tlacitka-box {
+  margin-top: 40px;              /* Oddělení od textu nad tlačítky */
+  padding:  10px;                 /* Vnitřní odsazení rámečku */
+  border: 2px solid #250a85;        /* Rámeček kolem tlačítek */
+  border-radius: 10px;           /* Zaoblené rohy rámečku */
+  background-color: #72068d60;     /* Jemné pozadí rámečku */
+  text-align: center;  
+  width: 260px;          /* Zarovnání tlačítek na střed */
+}
 
