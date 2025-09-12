@@ -1,0 +1,27 @@
+ol,p {
+  width: 400px;
+  word-wrap: break-word;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+    background-color: #b8cc046e;
+}
+.red {
+  color: #f80b0b;
+}
+
+ol,ul {
+  margin-bottom: 20px;
+  width: 400px;
+  
+}
+
+ol ::marker,ul ::marker {
+  color: #9309ca;
+}
+
+
