@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #cc6504e1;
+    background-image: url("photos/dragon.jpg");
+    background-size: cover;
+    /* roztáhne obrázek přes celou plochu */
+    background-position: center;
+    /* zarovná obrázek na střed */
+    background-repeat: no-repeat;
+    /* zabrání opakování obrázku */
+    background-attachment: fixed;
+    /* obrázek zůstane na místě při scrollování */
+}
+
+.mid {
+    display: block;
+    margin: 0 auto;
+}
+
+.midSize {
+    width: 300px;
+    /* nebo jiná velikost podle potřeby */
+    height: auto;
+}
+.image-row {
+  display: flex;
+  justify-content: center; /* zarovná obrázky na střed */
+  gap: 20px;               /* mezera mezi obrázky */
+}
